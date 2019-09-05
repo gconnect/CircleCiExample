@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/AndroidProjects
+    working_directory: ~/CircleCiExample
     docker:
       - image: circleci/android:api-29
     environment:
